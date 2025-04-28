@@ -1,33 +1,51 @@
-# Blockchain-```
-├── backend/          # Django REST API
-├── blockchain/       # Blockchain implementation
-├── frontend/        # React + Vite frontend
-├── docs/            # Project documentation
-└── design/          # Design resources
-```and Management System
+# Blockchain-Based Land Management System
+
+<div align="center">
+
+![Blockchain Land Management](https://img.shields.io/badge/Blockchain-Land%20Management-blue)
+![Django](https://img.shields.io/badge/Django-5.2-green)
+![React](https://img.shields.io/badge/React-18.x-blue)
+![Hyperledger](https://img.shields.io/badge/Hyperledger-Fabric-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+</div>
+
+---
 
 This project implements a secure and transparent land management system using blockchain technology for Tanzania. The system consists of a Django backend API, a React frontend (built with Vite), and blockchain integration using Hyperledger Fabric.
 
-## Prerequisites
+## 🚀 Prerequisites
 
-- Python 3.13+
-- Node.js 18+ and npm
-- PostgreSQL
-- Redis (for caching)
+| Technology | Version |
+|------------|---------|
+| Python | 3.13+ |
+| Node.js | 18+ |
+| PostgreSQL | Latest |
+| Redis | Latest |
+| Hyperledger Fabric | 2.x |
 
-## Project Structure
+## 📁 Project Structure
 
+```bash
+fyp/
+├── backend/          # Django REST API with PostgreSQL
+│   ├── documents/    # Document management
+│   ├── land_registry/# Land registry core functionality
+│   ├── users/        # User authentication & management
+│   └── manage.py     # Django management script
+│
+├── blockchain/       # Hyperledger Fabric implementation
+│   └── contracts/    # Smart contracts for land management
+│
+├── frontend/        # React + Vite frontend
+│   └── web/         # Web application
+│
+└── design/          # Design resources & mockups
 ```
-├── backend/          # Django REST API
-├── blockchain/       # Blockchain implementation
-├── frontend/         # Vue.js web interface
-├── docs/            # Project documentation
-└── design/          # Design resources
-```
 
-## Setup and Installation
+## 🔧 Setup and Installation
 
-### Backend Setup
+### ⚙️ Backend Setup
 
 1. Create and activate the virtual environment:
 ```bash
@@ -82,11 +100,15 @@ The frontend will be available at `http://localhost:5173`
 
 Note: The frontend is built using React 18+ with Vite for faster development and optimized production builds. We use React Query for efficient API data management and React Router for navigation.
 
-## API Documentation
-(not yet implemented)
-The API documentation can be found in `docs/api_documentation.md`. You can also access the interactive API documentation at:
-- Swagger UI: `http://localhost:8000/swagger/`
-- ReDoc: `http://localhost:8000/redoc/`
+## 📚 API Documentation
+
+> **Note:** API documentation is currently under development
+
+### Available Documentation Endpoints
+| Interface | URL |
+|----------|-----|
+| Swagger UI | `http://localhost:8000/swagger/` |
+| ReDoc | `http://localhost:8000/redoc/` |
 
 ## Testing
 
