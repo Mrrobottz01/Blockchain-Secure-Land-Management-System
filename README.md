@@ -1,10 +1,10 @@
-# Blockchain-```
+# Blockchain-
 ├── backend/          # Django REST API
 ├── blockchain/       # Blockchain implementation
 ├── frontend/        # React + Vite frontend
 ├── docs/            # Project documentation
 └── design/          # Design resources
-```and Management System
+and Management System
 
 This project implements a secure and transparent land management system using blockchain technology for Tanzania. The system consists of a Django backend API, a React frontend (built with Vite), and blockchain integration using Hyperledger Fabric.
 
